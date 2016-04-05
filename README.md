@@ -72,7 +72,7 @@ for e.g.
     {'Apache': {'Hadoop': 2, 'Storm': 1, 'Kafka': 1}, 'HBase': {'Spark': 1}, 'Flink': {'Spark': 1, 'HBase': 1}, 'Hadoop': {'Storm': 1}}
 ```
 
-## Testing the code
+### Testing the code
 
 - 4 unit tests were written to test some of the conditions and edge cases. The unit tests can be run from the `run_test.sh` script.
 - These test cases were also added to the insight_testsuite. They can be run simply by calling `insight_testsuite/run_tests.sh`
