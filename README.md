@@ -1,5 +1,5 @@
 # TwitterHashtagGraph
-Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.
+
 ===========================================================
 @author: Madhavi Deshmukh 
 
