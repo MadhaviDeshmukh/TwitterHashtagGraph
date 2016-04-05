@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Insight Data Engineering - Coding Challenge
 ===========================================================
 @author: Madhavi Deshmukh 
