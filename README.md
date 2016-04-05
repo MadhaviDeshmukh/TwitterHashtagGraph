@@ -1,4 +1,5 @@
-Insight Data Engineering - Coding Challenge
+# TwitterHashtagGraph
+Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.
 ===========================================================
 @author: Madhavi Deshmukh 
 
@@ -76,6 +77,5 @@ for e.g.
 - 4 unit tests were written to test some of the conditions and edge cases. The unit tests can be run from the `run_test.sh` script.
 - These test cases were also added to the insight_testsuite. They can be run simply by calling `insight_testsuite/run_tests.sh`
 =======
-# TwitterHashtagGraph
-Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.
+
 
