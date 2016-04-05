@@ -50,7 +50,7 @@ The edge list is a list of all the hashtag pairs and their creation time. for e.
 ```
 
 - The edge list is used to keep track of all the edges that are still within the 60s window.
-- It is assumed that most of the tweets will be in order, so new edges are prepended/inserted to the beginning of the list if its timestamp is earlier than the first element in the list.
+- Since most of the tweets will be in order, new edges are prepended/inserted to the beginning of the list if its timestamp is earlier than the first element in the list for performance reasons.
 - If we receive an edge that is out of order, but still within the 60s window, we still insert the new edge at the beginning and then sort the list.
     - Sort was primarily used because of lack of time for a better implementation.
     - A better implementation would be to find the correct index by doing a binary search.
