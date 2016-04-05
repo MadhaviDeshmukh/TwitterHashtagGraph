@@ -78,4 +78,4 @@ for e.g.
 =======
 # TwitterHashtagGraph
 Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.
->>>>>>> fbcc6d73eb6df5a0f8dd824b335d2af61f0f9afc
+
