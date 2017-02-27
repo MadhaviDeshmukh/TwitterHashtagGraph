@@ -3,9 +3,7 @@
 ===========================================================
 @author: Madhavi Deshmukh 
 
-## Challenge Summary
-
-This challenge requires you to:
+## Summary
 
 Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.  You will thus be calculating the average degree over a 60-second sliding window.
 
